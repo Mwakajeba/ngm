@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>Loan Products | Next Generation Microfinance</title>
+    <title>Loan Products | NextGeneration Microfinance</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -25,7 +25,7 @@
 <nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md shadow-sm">
 <div class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto w-full">
 <div class="text-xl font-extrabold tracking-tighter text-blue-900 dark:text-white font-headline">
-                Next Generation Microfinance
+                NextGeneration Microfinance
             </div>
 <div class="hidden md:flex items-center space-x-8">
 <a class="font-headline font-bold tracking-tight text-sm uppercase text-slate-600 dark:text-slate-400 hover:text-blue-900 dark:hover:text-white transition-colors" href="{{ url('/') }}">Home</a>
@@ -157,7 +157,7 @@
 <section class="bg-surface-container-low py-24">
 <div class="max-w-7xl mx-auto px-6">
 <div class="text-center max-w-3xl mx-auto mb-16">
-<h2 class="text-4xl font-headline font-extrabold text-primary mb-6">Why Choose Next Generation?</h2>
+<h2 class="text-4xl font-headline font-extrabold text-primary mb-6">Why Choose NextGeneration?</h2>
 <p class="text-on-surface-variant text-lg leading-relaxed">We are more than a lender; we are your financial partner. Our processes are built on transparency and speed to ensure your success.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -202,7 +202,7 @@
 <footer class="w-full border-t border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950">
 <div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 py-16 max-w-7xl mx-auto">
 <div class="col-span-1 md:col-span-1">
-<div class="text-lg font-bold text-blue-900 dark:text-slate-100 mb-6 font-headline">Next Generation Microfinance Ltd.</div>
+<div class="text-lg font-bold text-blue-900 dark:text-slate-100 mb-6 font-headline">NextGeneration Microfinance Ltd.</div>
 <p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed font-body">
                     Your trusted partner for financial growth in Tanzania. Regulated and committed to ethical lending practices.
                 </p>
@@ -235,7 +235,7 @@
 </div>
 </div>
 <div class="max-w-7xl mx-auto px-8 py-8 border-t border-slate-200/50 dark:border-slate-800/50 flex flex-col md:flex-row justify-between items-center gap-4">
-<p class="text-slate-500 dark:text-slate-400 text-xs font-body">© {{ date('Y') }} Next Generation Microfinance Ltd. All rights reserved.</p>
+<p class="text-slate-500 dark:text-slate-400 text-xs font-body">© {{ date('Y') }} NextGeneration Microfinance Ltd. All rights reserved.</p>
 <div class="flex gap-6">
 <span class="material-symbols-outlined text-slate-400 hover:text-primary cursor-pointer transition-colors" role="img" aria-label="Social">social_leaderboard</span>
 <span class="material-symbols-outlined text-slate-400 hover:text-primary cursor-pointer transition-colors" role="img" aria-label="Email">alternate_email</span>
