@@ -1,0 +1,88 @@
+<?php
+
+return [
+    'page' => [
+        'hero_title' => 'Job Vacancies',
+        'hero_sub' => 'Build your career with NextGeneration Microfinance. Explore open roles and apply with your CV (PDF).',
+        'badge_hiring' => 'Transparent hiring',
+        'badge_team' => 'Tanzania-first team',
+        'open_positions' => 'Open Positions',
+        'open_hint' => 'Click a job to view full description and upload your CV.',
+        'updated' => 'Updated regularly',
+        'back' => 'Back to vacancies',
+        'apply_title' => 'Apply with your CV',
+        'apply_sub' => 'Upload your CV as a PDF. Max 5MB.',
+        'success_title' => 'Application received.',
+        'success_body' => 'Our team will review and contact you if shortlisted.',
+        'full_name' => 'Full Name',
+        'full_name_ph' => 'Your full name',
+        'email' => 'Email',
+        'phone' => 'Phone (optional)',
+        'cv' => 'CV (PDF)',
+        'submit' => 'Submit Application',
+        'role_overview' => 'Role Overview',
+        'requirements' => 'Requirements',
+        'posted' => 'Posted',
+    ],
+
+    'posts' => [
+        'loan-officer-dar-es-salaam' => [
+            'title' => 'Loan Officer',
+            'location' => 'Dar es Salaam',
+            'type' => 'Full-time',
+            'department' => 'Operations',
+            'posted_at' => '2026-03-30',
+            'summary' => 'Support clients from application to disbursement with strong due diligence and customer care.',
+            'description' => [
+                'Handle client inquiries, onboarding, and loan applications.',
+                'Collect and verify client documentation (KYC) and business information.',
+                'Conduct basic field verification where required.',
+                'Prepare appraisal summaries and recommendations.',
+                'Maintain accurate client records and follow up on repayments.',
+            ],
+            'requirements' => [
+                'Diploma or Bachelor’s degree in Business, Finance, Economics, or a related field.',
+                'Strong communication skills in English and Swahili.',
+                'Comfortable working in the field and meeting clients.',
+                'Integrity, attention to detail, and strong customer service mindset.',
+            ],
+        ],
+        'credit-analyst' => [
+            'title' => 'Credit Analyst',
+            'location' => 'Dar es Salaam',
+            'type' => 'Full-time',
+            'department' => 'Credit',
+            'posted_at' => '2026-03-30',
+            'summary' => 'Analyze applications, assess risk, and support responsible lending decisions.',
+            'description' => [
+                'Review loan applications and supporting documents.',
+                'Assess affordability, cash flow patterns, and repayment capacity.',
+                'Identify risks and propose mitigations.',
+                'Support credit committee reporting and portfolio monitoring.',
+            ],
+            'requirements' => [
+                'Bachelor’s degree in Finance, Accounting, Economics, or a related field.',
+                'Strong Excel / analytical skills; ability to interpret statements.',
+                'Experience in lending/credit is an advantage.',
+            ],
+        ],
+        'customer-support-agent' => [
+            'title' => 'Customer Support Agent',
+            'location' => 'Dar es Salaam',
+            'type' => 'Full-time',
+            'department' => 'Customer Experience',
+            'posted_at' => '2026-03-30',
+            'summary' => 'Provide fast, friendly support across phone, email, and in-branch interactions.',
+            'description' => [
+                'Respond to customer inquiries and resolve issues promptly.',
+                'Explain product terms clearly and accurately.',
+                'Escalate complex cases and follow through to closure.',
+            ],
+            'requirements' => [
+                'Excellent communication and empathy.',
+                'Strong written communication (email/WhatsApp-style professionalism).',
+                'Prior customer service experience is a plus.',
+            ],
+        ],
+    ],
+];

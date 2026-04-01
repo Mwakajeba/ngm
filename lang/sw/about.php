@@ -1,0 +1,37 @@
+<?php
+
+return [
+    'hero_line1' => 'Kuimarisha',
+    'hero_line2' => 'Watanzania',
+    'hero_line3' => 'Ndoto.',
+    'hero_sub' => 'NextGeneration Microfinance Ltd si mkopeshaji tu. Sisi ndio msingi wa ujenzi wa kipaji cha wajasiriamali wa kizazi kipya nchini.',
+    'mission_label' => 'Dhamira Yetu',
+    'mission_title' => 'Kuendesha Ukuaji Endelevu Kupitia Uaminifu.',
+    'mission_body' => 'Kutoa suluhisho za kifedha zinazopatikana, zenye maadili, na bunifu zinazochochea ukuaji wa biashara za Kitanzania, na kuimarisha utamaduni wa uhuru wa kifedha na ustawi wa muda mrefu kwa wateja wetu wote.',
+    'vision_label' => 'Dira Yetu',
+    'vision_title' => 'Kuwa Mshirika wa Fedha Anayeheshimiwa Zaidi Afrika Mashariki.',
+    'vision_body' => 'Tunaona Tanzania ambapo kila mtu na SME ana nia na mwelekeo wa kutosha wa kugeuza ndoto kuwa uhalisia endelevu, na kuchangia injini ya uchumi wa taifa.',
+    'edge_title' => 'Tofauti ya Next Gen',
+    'edge_sub' => 'Ufanisi wa kifedha unaotegemea kasi, uwazi, na ushirikiano.',
+    'edge' => [
+        'fast_title' => 'Uchakataji Haraka',
+        'fast_body' => 'Muda ni pesa. Mfumo wetu wa kidijitali unahakikisha idhini ya mikopo kwa wakati bila kupuuza uangalifu.',
+        'rates_title' => 'Viwango Nafuu',
+        'rates_body' => 'Tunaamini katika ukuaji, si mitego ya deni. Miundo yetu ya riba ni ya ushindani na endelevu kwa biashara yako.',
+        'trans_title' => 'Uwazi Kamili',
+        'trans_body' => 'Hakuna ada zilizofichwa. Masharti yote ya mkopo wa wazi kutoka siku ya kwanza.',
+    ],
+    'serve_title' => 'Tunawahudumia Nani',
+    'serve' => [
+        'sme_title' => 'SME na Masoko ya Ndani',
+        'sme_body' => 'Kutoa mtaji wa kazi unaohitajika kupanua hesabu na kufikia masoko mapya.',
+        'mod_title' => 'Wajasiriamali wa Kisasa',
+        'mod_body' => 'Kuendesha vianzishi vipya na biashara za huduma kwa ufadhili unaobadilika.',
+        'sector_title' => 'Sekta ya Umma na Binafsi',
+        'sector_body' => 'Mikopo ya mishahara na ufadhili wa mali kwa wafanyakazi wa kitaaluma.',
+    ],
+    'commit_title' => 'Ahadi Yetu kwa Mustakabali wa Tanzania',
+    'commit_body' => 'Hatuoni tu takwimu; tunaona mustakabali wa taifa. Kila mkopo unaoendeshwa ni jiwe katika ukuta wa uhuru wa kiuchumi wa Tanzania. Kutoka Dar es Salaam hadi Arusha na Mwanza, tumejitolea kwa mafanikio yako.',
+    'stat_biz' => 'Biashara Zilizoiwezesha',
+    'stat_retention' => 'Uthabiti wa Wateja',
+];

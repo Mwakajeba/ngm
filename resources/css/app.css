@@ -5,6 +5,10 @@
 @source '../**/*.blade.php';
 @source '../**/*.js';
 
+/*
+ * Brand palette (from logo: NEXT = forest green, GENERATION = lime, accents = gold)
+ * Primary #14532d | Secondary (lime) #65a30d | Tertiary (gold) #b45309
+ */
 @theme {
     --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
@@ -12,65 +16,103 @@
     --font-body: 'Inter', ui-sans-serif, system-ui, sans-serif;
     --font-label: 'Inter', ui-sans-serif, system-ui, sans-serif;
 
-    --color-background: #f8f9fa;
-    --color-on-background: #191c1d;
-    --color-surface: #f8f9fa;
-    --color-on-surface: #191c1d;
-    --color-on-surface-variant: #434652;
-    --color-surface-variant: #e1e3e4;
-    --color-surface-bright: #f8f9fa;
-    --color-surface-dim: #d9dadb;
-    --color-surface-container: #edeeef;
-    --color-surface-container-low: #f3f4f5;
+    --color-background: #f7faf7;
+    --color-on-background: #132017;
+    --color-surface: #f8faf8;
+    --color-on-surface: #132017;
+    --color-on-surface-variant: #3d4a40;
+    --color-surface-variant: #dde6df;
+    --color-surface-bright: #f8faf8;
+    --color-surface-dim: #d4ddd6;
+    --color-surface-container: #ecf2ed;
+    --color-surface-container-low: #f2f6f2;
     --color-surface-container-lowest: #ffffff;
-    --color-surface-container-high: #e7e8e9;
-    --color-surface-container-highest: #e1e3e4;
-    --color-inverse-surface: #2e3132;
-    --color-inverse-on-surface: #f0f1f2;
-    --color-inverse-primary: #b0c6ff;
+    --color-surface-container-high: #e2eae3;
+    --color-surface-container-highest: #dce5dd;
+    --color-inverse-surface: #1e2a22;
+    --color-inverse-on-surface: #eef5ef;
+    --color-inverse-primary: #b8e0a8;
 
-    --color-primary: #003178;
+    /* Forest green — “NEXT”, headings, primary actions */
+    --color-primary: #14532d;
     --color-on-primary: #ffffff;
-    --color-primary-container: #0d47a1;
-    --color-on-primary-container: #a1bbff;
-    --color-primary-fixed: #d9e2ff;
-    --color-primary-fixed-dim: #b0c6ff;
-    --color-on-primary-fixed: #001945;
-    --color-on-primary-fixed-variant: #00429c;
-    --color-surface-tint: #2b5bb5;
+    --color-primary-container: #1e6b42;
+    --color-on-primary-container: #c8f5d8;
+    --color-primary-fixed: #e8f8ec;
+    --color-primary-fixed-dim: #b8e8c8;
+    --color-on-primary-fixed: #052e16;
+    --color-on-primary-fixed-variant: #1a5c38;
+    --color-surface-tint: #1e6b42;
 
-    --color-secondary: #006b5f;
+    /* Lime — “GENERATION”, secondary CTAs */
+    --color-secondary: #65a30d;
     --color-on-secondary: #ffffff;
-    --color-secondary-container: #8df5e4;
-    --color-on-secondary-container: #007165;
-    --color-secondary-fixed: #8df5e4;
-    --color-secondary-fixed-dim: #70d8c8;
-    --color-on-secondary-fixed: #00201c;
-    --color-on-secondary-fixed-variant: #005048;
+    --color-secondary-container: #ecfccb;
+    --color-on-secondary-container: #1a2e05;
+    --color-secondary-fixed: #d9f99d;
+    --color-secondary-fixed-dim: #a3e635;
+    --color-on-secondary-fixed: #1a2e05;
+    --color-on-secondary-fixed-variant: #365314;
 
-    --color-tertiary: #572800;
+    /* Gold — figure / accent lines */
+    --color-tertiary: #b45309;
     --color-on-tertiary: #ffffff;
-    --color-tertiary-container: #793a00;
-    --color-on-tertiary-container: #ffa76a;
-    --color-tertiary-fixed: #ffdcc6;
-    --color-tertiary-fixed-dim: #ffb786;
-    --color-on-tertiary-fixed: #311300;
-    --color-on-tertiary-fixed-variant: #723600;
+    --color-tertiary-container: #fcd34d;
+    --color-on-tertiary-container: #713f12;
+    --color-tertiary-fixed: #ffedd5;
+    --color-tertiary-fixed-dim: #fdba74;
+    --color-on-tertiary-fixed: #431407;
+    --color-on-tertiary-fixed-variant: #92400e;
 
     --color-error: #ba1a1a;
     --color-on-error: #ffffff;
     --color-error-container: #ffdad6;
     --color-on-error-container: #93000a;
 
-    --color-outline: #737783;
-    --color-outline-variant: #c3c6d4;
+    --color-outline: #6b7a6f;
+    --color-outline-variant: #c5d0c8;
 }
 
 @utility hero-gradient {
-    background: linear-gradient(135deg, #003178 0%, #0d47a1 100%);
+    background: linear-gradient(135deg, #14532d 0%, #1e6b42 45%, #65a30d 100%);
 }
 
 @layer components {
+    /* Always visible — do not rely on Tailwind scanning of the Blade partial */
+    .whatsapp-float-btn {
+        position: fixed;
+        bottom: 1.5rem;
+        right: 1.5rem;
+        z-index: 9999;
+        width: 3.5rem;
+        height: 3.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 9999px;
+        background-color: #25d366;
+        color: #fff;
+        box-shadow:
+            0 10px 15px -3px rgb(0 0 0 / 0.12),
+            0 4px 6px -4px rgb(0 0 0 / 0.08);
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .whatsapp-float-btn:hover {
+        transform: scale(1.06);
+        box-shadow:
+            0 20px 25px -5px rgb(0 0 0 / 0.12),
+            0 8px 10px -6px rgb(0 0 0 / 0.1);
+    }
+    .whatsapp-float-btn:focus-visible {
+        outline: 2px solid var(--color-primary);
+        outline-offset: 3px;
+    }
+    .whatsapp-float-btn svg {
+        width: 2rem;
+        height: 2rem;
+        flex-shrink: 0;
+        fill: currentColor;
+    }
     .no-scrollbar {
         -ms-overflow-style: none;
         scrollbar-width: none;

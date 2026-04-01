@@ -1,0 +1,88 @@
+<?php
+
+return [
+    'page' => [
+        'hero_title' => 'Nafasi za Kazi',
+        'hero_sub' => 'Jenga kazi yako na NextGeneration Microfinance. Tazama nafasi zilizo wazi na tumia CV yako (PDF).',
+        'badge_hiring' => 'Uajiri wa uwazi',
+        'badge_team' => 'Timu ya Tanzania kwanza',
+        'open_positions' => 'Nafasi Zilizo Wazi',
+        'open_hint' => 'Bofya kazi kuona maelezo kamili na kupakia CV yako.',
+        'updated' => 'Husasishwa mara kwa mara',
+        'back' => 'Rudi kwenye nafasi',
+        'apply_title' => 'Tuma Maombi na CV Yako',
+        'apply_sub' => 'Pakia CV yako kama PDF. Upeo wa juu MB 5.',
+        'success_title' => 'Maombi yamepokelewa.',
+        'success_body' => 'Timu yetu itapitia na kuwasiliana nawe ukiwa katika waliobakiwa.',
+        'full_name' => 'Jina Kamili',
+        'full_name_ph' => 'Jina lako kamili',
+        'email' => 'Barua pepe',
+        'phone' => 'Simu (si lazima)',
+        'cv' => 'CV (PDF)',
+        'submit' => 'Tuma Maombi',
+        'role_overview' => 'Muhtasari wa Nafasi',
+        'requirements' => 'Mahitaji',
+        'posted' => 'Imechapishwa',
+    ],
+
+    'posts' => [
+        'loan-officer-dar-es-salaam' => [
+            'title' => 'Afisa wa Mikopo',
+            'location' => 'Dar es Salaam',
+            'type' => 'Muda wote',
+            'department' => 'Uendeshaji',
+            'posted_at' => '2026-03-30',
+            'summary' => 'Msaada kwa wateja kutoka maombi hadi utoaji wa mkopo, uangalifu mzuri na huduma kwa wateja.',
+            'description' => [
+                'Kushughulikia maswali ya wateja, usajili, na maombi ya mikopo.',
+                'Kukusanya na kuthibitisha nyaraka za mteja (KYC) na taarifa za biashara.',
+                'Kufanya uthibitishaji wa msingi wa uwanjani pale inapohitajika.',
+                'Kuandaa muhtasari wa tathmini na mapendekezo.',
+                'Kudumisha rekodi sahihi za wateja na kufuatilia marejesho.',
+            ],
+            'requirements' => [
+                'Stashahada au Shahada ya kwanza katika Biashara, Fedha, Uchumi, au fanira husika.',
+                'Ujuzi mzuri wa mawasiliano kwa Kiingereza na Kiswahili.',
+                'Kuridhika na kazi ya uwanjani na kukutana na wateja.',
+                'Uaminifu, umakini, na mawazo thabiti ya huduma kwa wateja.',
+            ],
+        ],
+        'credit-analyst' => [
+            'title' => 'Mchambuzi wa Mikopo',
+            'location' => 'Dar es Salaam',
+            'type' => 'Muda wote',
+            'department' => 'Mikopo',
+            'posted_at' => '2026-03-30',
+            'summary' => 'Kuchambua maombi, kutathmini hatari, na kusaidia maamuzi ya mikopo yenye uwajibikaji.',
+            'description' => [
+                'Kupitia maombi ya mikopo na nyaraka za msaada.',
+                'Kutathmini uwezo wa kulipa, mtiririko wa fedha, na uwezo wa marejesho.',
+                'Kutambua hatari na kupendekeza suluhisho.',
+                'Kusaidia ripoti za kamati ya mikopo na ufuatiliaji wa kundi.',
+            ],
+            'requirements' => [
+                'Shahada ya kwanza katika Fedha, Uhasibu, Uchumi, au fanira husika.',
+                'Ujuzi mzuri wa Excel / uchambuzi; uwezo wa kusoma taarifa za fedha.',
+                'Uzoefu katika mikopo ni faida.',
+            ],
+        ],
+        'customer-support-agent' => [
+            'title' => 'Wakala wa Msaada kwa Wateja',
+            'location' => 'Dar es Salaam',
+            'type' => 'Muda wote',
+            'department' => 'Uzoefu wa Wateja',
+            'posted_at' => '2026-03-30',
+            'summary' => 'Toa msaada wa haraka na urafiki kupitia simu, barua pepe, na tawi.',
+            'description' => [
+                'Kujibu maswali ya wateja na kutatua masuala kwa haraka.',
+                'Kuelezea masharti ya bidhaa kwa uwazi na usahihi.',
+                'Kupandisha kesi ngumu na kufuatilia hadi kumalizika.',
+            ],
+            'requirements' => [
+                'Mawasiliano mazuri na uelewa.',
+                'Ujuzi wa kuandika (barua pepe / mtindo wa kitaaluma).',
+                'Uzoefu wa huduma kwa wateja ni faida.',
+            ],
+        ],
+    ],
+];

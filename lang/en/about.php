@@ -1,0 +1,37 @@
+<?php
+
+return [
+    'hero_line1' => 'Empowering',
+    'hero_line2' => 'Tanzanian',
+    'hero_line3' => 'Ambition.',
+    'hero_sub' => 'NextGeneration Microfinance Ltd is more than a lender. We are the architectural anchor for the country\'s rising entrepreneurial class.',
+    'mission_label' => 'Our Mission',
+    'mission_title' => 'Driving Sustainable Growth Through Trust.',
+    'mission_body' => 'To provide accessible, ethical, and innovative financial solutions that catalyze the growth of Tanzanian businesses, fostering a culture of financial independence and long-term prosperity for all our clients.',
+    'vision_label' => 'Our Vision',
+    'vision_title' => 'To be the Most Respected Financial Partner in East Africa.',
+    'vision_body' => 'We envision a Tanzania where every ambitious individual and SME has the capital and guidance required to transform their vision into a sustainable reality, contributing to the nation\'s economic engine.',
+    'edge_title' => 'The Next Gen Edge',
+    'edge_sub' => 'Financial excellence defined by speed, transparency, and partnership.',
+    'edge' => [
+        'fast_title' => 'Fast Processing',
+        'fast_body' => 'Time is money. Our digital-first appraisal system ensures loan approvals in record time without compromising due diligence.',
+        'rates_title' => 'Affordable Rates',
+        'rates_body' => 'We believe in growth, not debt traps. Our interest structures are designed to be competitive and sustainable for your business.',
+        'trans_title' => 'Total Transparency',
+        'trans_body' => 'No hidden fees. No fine-print surprises. Every condition of your facility is explained in plain language from day one.',
+    ],
+    'serve_title' => 'Who We Serve',
+    'serve' => [
+        'sme_title' => 'SMEs & Local Markets',
+        'sme_body' => 'Providing the working capital needed to scale inventory and reach new markets.',
+        'mod_title' => 'Modern Entrepreneurs',
+        'mod_body' => 'Fueling innovative startups and service-based businesses with flexible financing.',
+        'sector_title' => 'Public & Private Sector',
+        'sector_body' => 'Tailored payroll loans and asset financing for the professional workforce.',
+    ],
+    'commit_title' => 'Our Commitment to Tanzania\'s Future',
+    'commit_body' => 'We don\'t just see balance sheets; we see the future of our nation. Every loan we facilitate is a brick in the wall of Tanzania\'s economic independence. From the bustling streets of Dar es Salaam to the growing centers of Arusha and Mwanza, we are invested in your success.',
+    'stat_biz' => 'Businesses Empowered',
+    'stat_retention' => 'Client Retention',
+];
